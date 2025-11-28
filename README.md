@@ -1,3 +1,8 @@
+Stack
+EXPRESSJS
+MYSQL
+Sequelize
+
 File & Folder Sharing System - API
 
 Run the project using Docker
@@ -45,8 +50,6 @@ Method Endpoint Description
  GET `/files/:folderName` List all files in a folder  
  GET `/file/content/:folderName/:fileName` View/download file content  
  GET `/secondary/file/info/:folderName/:fileName` View file metadata (size, createdAt, updatedAt)
-
-To connect database with mysql workbench
 
 Host Name: 127.0.0.1
 Port: 3307
