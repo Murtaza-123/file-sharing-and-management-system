@@ -20,6 +20,9 @@ npm run dev
 sequelize-cli db:migrate
 npx sequelize-cli db:seed:all
 
+To list all users use this endoint
+http://localhost:5000/public/users
+
 API Key Generation
 
 Primary Key
